@@ -2,15 +2,15 @@
 @hail: #f0f0f0;
 @sea: #003c62;
 
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Charmonman');
-@import url('https://fonts.googleapis.com/css?family=Unlock');
+// Font
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 // Main Style
 body {
   color: @hail;
   text-align: center;
   background-color: @sea;
+  font-family: 'Anton', sans-serif;
 }
 
 img {
@@ -20,35 +20,13 @@ img {
   border-width: 0.2em;
 }
 
-/* 
-#cover {
-  color: @sky;
-  padding: 1em;
-  margin: 4em 25em;
-  border-color: @hail;
-  border-style: solid;
-  border-width: 0.2em;
-  background-color: @hail;
-}
-
-h2 {
-  font-family: 'Charmonman', cursive;
-}
-
-#status {
-  font-style: italic;
-  font-family: 'Unlock', cursive;
-}
-
-
 // MOBILE VIEW
 // Portrait View
 @media only screen and (max-width: 1200px) {
-  #cover {
+  img {
     margin: 3em 20em;
   }
 }
-*/
 
 // Landscape View
 @media only screen and (max-width: 600px) {
