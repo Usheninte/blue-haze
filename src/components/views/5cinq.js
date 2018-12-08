@@ -7,7 +7,7 @@ export default class Cinq extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col">
-              <img src={'https://res.cloudinary.com/poetrique/image/upload/v1544288153/nullthefirst/blue-HAZE/5cinq.png'} alt="blue HAZE" title="blue HAZE" />
+              <img src={'https://res.cloudinary.com/poetrique/image/upload/v1544312059/nullthefirst/blue-HAZE/5cinq.png'} alt="blue HAZE" title="blue HAZE" />
             </div>
           </div>
         </div>
