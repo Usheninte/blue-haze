@@ -4,7 +4,7 @@ const hey = {
   margin: "5em"
 }
 
-export default class Hello extends Component {
+export default class Blue extends Component {
   render() {
     return(
       <div>

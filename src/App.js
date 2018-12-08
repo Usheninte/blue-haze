@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './components/App.css';
 
-import Hello from './components/views/hello';
+import Blue from './components/views/blue';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Hello />
+        <Blue />
       </div>
     );
   }
