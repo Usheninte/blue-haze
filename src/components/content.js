@@ -1,7 +1,6 @@
 import React , { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-import Blue from './views/blue';
 import Un from './views/1un';
 import Deux from './views/2deux';
 import Trois from './views/3trois';
@@ -52,22 +51,11 @@ export default class Content extends Component {
             <div className="col"></div>
           </div>
 
-          <div style={foam} className="row">
-            <div className="col"></div>
-            <div style={foam} className="col-sm">
-              <Link to="/">
-                <button type="button" class="btn btn-danger">COVER</button>
-              </Link>
-            </div>
-            <div className="col"></div>
-          </div>
-
           <Route path="/un" component={Un} />
           <Route path="/deux" component={Deux} />
           <Route path="/trois" component={Trois} />
           <Route path="/quatre" component={Quatre} />
           <Route path="/cinq" component={Cinq} />
-          <Route exact path="/" component={Blue} />
         </div>
       </Router>
     );
