@@ -16,6 +16,7 @@ export default class Content extends Component {
     return(
       <Router>
         <div className="container-fluid">
+          <h6>scroll down after selecting poem</h6>
           <div style={foam} className="row">
             <div className="col"></div>
             <div style={foam} className="col-sm">
@@ -35,7 +36,7 @@ export default class Content extends Component {
             </div>
             <div className="col"></div>
           </div>
-
+          
           <div style={foam} className="row">
             <div className="col"></div>
             <div style={foam} className="col-sm">
