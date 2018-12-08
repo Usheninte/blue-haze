@@ -7,7 +7,7 @@ export default class Trois extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col">
-              <img src={''} alt="blue HAZE" title="blue HAZE" />
+              <img src={'https://res.cloudinary.com/poetrique/image/upload/v1544288142/nullthefirst/blue-HAZE/3trois.png'} alt="blue HAZE" title="blue HAZE" />
             </div>
           </div>
         </div>
