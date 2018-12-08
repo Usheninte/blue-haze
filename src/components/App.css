@@ -4,6 +4,7 @@ body {
   background-color: #4fc9eb;
 }
 #cover {
+  padding: 1em;
   margin: 4em 25em;
   border-color: #f0f0f0;
   border-style: solid;
