@@ -7,7 +7,7 @@ export default class Un extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col">
-              <img src={''} alt="blue HAZE" title="blue HAZE" />
+              <img src={'https://res.cloudinary.com/poetrique/image/upload/v1544288147/nullthefirst/blue-HAZE/1un.png'} alt="blue HAZE" title="blue HAZE" />
             </div>
           </div>
         </div>

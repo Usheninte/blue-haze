@@ -24,7 +24,7 @@ export default class Footer extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h5 style={x}>nullthefirst <i style={code} class="fas fa-code"></i> 2018</h5> 
+          <h5 style={x}>Nullthefirst <i style={code} class="fas fa-code"></i> 2018</h5> 
         </a>
       </div>
     );
