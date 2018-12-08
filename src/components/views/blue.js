@@ -7,8 +7,16 @@ const title = {
 }
 
 const status = {
+}
+
+const one = {
   textAlign: "left",
-  margin: "0.8em"
+  margin: "2em"
+}
+
+const two = {
+  textAlign: "right",
+  margin: "3em"
 }
 
 export default class Blue extends Component {
@@ -19,8 +27,8 @@ export default class Blue extends Component {
           <h2 style={title}>blue haze</h2>
           <hr />
           <div style={status}>
-            <p>a tale</p>
-            <p>of love</p>
+            <p style={one}>a tale</p>
+            <p style={two}>of love</p>
             <p>and the</p>
             <p>lack of it</p>
           </div>
