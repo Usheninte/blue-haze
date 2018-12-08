@@ -5,7 +5,7 @@ export default class Blue extends Component {
     return(
       <div>
         <div id="cover">
-          <p>null</p>
+          <img src={'https://res.cloudinary.com/poetrique/image/upload/v1544283930/nullthefirst/Nullthefirst_blue-HAZE.png'} />
         </div>
       </div>
     );
