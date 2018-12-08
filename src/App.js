@@ -3,6 +3,7 @@ import './components/App.css';
 
 import Blue from './components/views/blue';
 import Content from './components/content';
+import Play from './components/playlist';
 import Footer from './components/footer';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
       <div>
         <Blue />
         <Content />
+        <Play />
         <Footer />
       </div>
     );
