@@ -8,6 +8,7 @@ export default class Open extends Component {
   render() {
     return(
       <div>
+        <hr />
         <a
           href="https://github.com/Usheninte/blue-haze"
           target="_blank"
