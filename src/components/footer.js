@@ -2,12 +2,17 @@ import React, { Component } from 'react';
 
 const footerStyle = {
   textAlign: "center",
-  marginTop: "4em"
+  marginTop: "4em",
+  marginBottom: "2em"
 }
 
-const blueBold = {
-  color: "#61dafb",
+const code = {
+  color: "#f0f0f0",
   fontStyle: "bold"
+}
+
+const x = {
+  color: "#ed6461"
 }
 
 export default class Footer extends Component {
@@ -19,7 +24,7 @@ export default class Footer extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h5>nullthefirst <i style={blueBold} class="fas fa-code"></i> 2018</h5> 
+          <h5 style={x}>nullthefirst <i style={code} class="fas fa-code"></i> 2018</h5> 
         </a>
       </div>
     );
