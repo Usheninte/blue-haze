@@ -8,28 +8,32 @@ const title = {
 
 const one = {
   textAlign: "left",
-  margin: "2em"
+  margin: "1em 0 0 2em"
 }
 
 const two = {
   textAlign: "right",
-  margin: "3em"
+  margin: "1em 3em 0 0"
 }
 
 const three = {
   textAlign: "left",
-  margin: "4.5em"
+  margin: "3em 0 0 4.5em"
 }
 
 const four = {
   textAlign: "right",
   margin: "0.5em",
-  padding: "2em"
+  padding: "1em 2em 0.5em 0"
 }
 
 const five = {
-  textAlign: "left",
-  margin: "2.5em"
+  backgroundColor: "#4fc9eb",
+  textAlign: "center",
+  color: "#f0f0f0",
+  borderRadius: "40%",
+  margin: "2.5em",
+  padding: "1.2em"
 }
 
 export default class Blue extends Component {
@@ -37,14 +41,13 @@ export default class Blue extends Component {
     return(
       <div>
         <div id="cover">
-          <h2 style={title}>b-l-u-e _ h-a-z-e</h2>
+          <h2 style={title}>b-l-u-e . h-a-z-e</h2>
           <hr />
           <div id="status">
             <p style={one}>a tale</p>
             <p style={two}>of love</p>
             <p style={three}>and the</p>
             <p style={four}>lack of it</p>
-            <hr />
             <p style={five}>... that's it</p>
           </div>
         </div>
