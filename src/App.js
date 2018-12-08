@@ -14,6 +14,7 @@ class App extends Component {
         <Home />
         <Content />
         <Play />
+        <Open />
         <Footer />
       </div>
     );
