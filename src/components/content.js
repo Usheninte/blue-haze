@@ -16,7 +16,8 @@ export default class Content extends Component {
     return(
       <Router>
         <div className="container-fluid">
-          <h6>scroll down after selecting poem</h6>
+          <h6>click a numbered button</h6>
+          <h6>& scroll down to read poem</h6>
           <div style={foam} className="row">
             <div className="col"></div>
             <div style={foam} className="col-sm">
