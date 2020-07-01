@@ -13,8 +13,8 @@ class App extends Component {
       <div>
         <Home />
         <Content />
-        <Play />
-        <Open />
+//         <Play />
+//         <Open />
         <Footer />
       </div>
     );
