@@ -3,8 +3,8 @@ import './components/App.css';
 
 import Home from './components/home';
 import Content from './components/content';
-import Play from './components/playlist';
-import Open from './components/open';
+// import Play from './components/playlist';
+// import Open from './components/open';
 import Footer from './components/footer';
 
 class App extends Component {
@@ -13,8 +13,6 @@ class App extends Component {
       <div>
         <Home />
         <Content />
-//         <Play />
-//         <Open />
         <Footer />
       </div>
     );
