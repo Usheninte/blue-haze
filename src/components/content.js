@@ -16,6 +16,7 @@ export default class Content extends Component {
     return(
       <Router>
         <div className="container-fluid">
+          <br /><br />
           <h6>click a numbered button</h6>
           <h6>& scroll down to read poem</h6>
           <div style={foam} className="row">
