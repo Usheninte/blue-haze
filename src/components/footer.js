@@ -19,13 +19,7 @@ export default class Footer extends Component {
   render() {
     return(
       <div style={footerStyle}>
-        <a
-          href="https://github.com/Usheninte/blue-haze"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h5 style={x}>Nullthefirst <i style={code} class="fas fa-code"></i> 2018 - 2019</h5> 
-        </a>
+        <h5 style={x}>Nullthefirst <i style={code} class="fas fa-code"></i> All Rights Reserved</h5> 
       </div>
     );
   }
